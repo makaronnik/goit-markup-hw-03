@@ -17,6 +17,7 @@
   --bg-color-button-primary: #f5f4fa;
   --bg-color-button-accent-primary: #2196f3;
   --bg-color-button-accent-secondary: #188ce8;
+  --list-items-gap: 30px;
 }
 
 /* Global styles */
@@ -49,10 +50,6 @@ body {
 
 /* Utilities */
 
-.text-center {
-  text-align: center;
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -64,6 +61,14 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.image-block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Site header */
@@ -207,10 +212,8 @@ body {
 /* Features list */
 
 .features-list {
-  --features-list-items-gap: 30px;
-
   display: flex;
-  margin-left: calc(-1 * var(--features-list-items-gap));
+  margin-left: calc(-1 * var(--list-items-gap));
 }
 
 .features-list__heading {
@@ -220,8 +223,8 @@ body {
 }
 
 .features-list__item {
-  flex-basis: calc((100% / 4) - var(--features-list-items-gap));
-  margin-left: var(--features-list-items-gap);
+  flex-basis: calc((100% / 4) - var(--list-items-gap));
+  margin-left: var(--list-items-gap);
 }
 
 .features-list__text {
@@ -237,16 +240,14 @@ body {
 }
 
 .competence-list {
-  --competence-list-items-gap: 30px;
-
   display: flex;
   margin-top: 50px;
-  margin-left: calc(-1 * var(--competence-list-items-gap));
+  margin-left: calc(-1 * var(--list-items-gap));
 }
 
 .competence-list__item {
-  flex-basis: calc((100% / 3) - var(--competence-list-items-gap));
-  margin-left: var(--competence-list-items-gap);
+  flex-basis: calc((100% / 3) - var(--list-items-gap));
+  margin-left: var(--list-items-gap);
 }
 
 /* Competence & Team */
@@ -266,17 +267,31 @@ body {
 
 /* Team cards */
 
+.team-cards {
+  display: flex;
+  margin-top: 50px;
+  margin-left: calc(-1 * var(--list-items-gap));
+}
+
 .team-cards__item {
+  flex-basis: calc((100% / 4) - var(--list-items-gap));
+  margin-left: var(--list-items-gap);
+  padding-bottom: 30px;
+
   background-color: var(--bg-color-primary);
 }
 
 .team-cards__heading {
+  margin-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
 .team-cards__position {
+  margin-top: 10px;
+
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-color-secondary);
