@@ -113,7 +113,7 @@ body {
 
 /* Site navigation & Contact links */
 
-.site-nav,
+.site-nav__list,
 .contacts-links {
   display: flex;
 }
