@@ -302,17 +302,30 @@ body {
   color: var(--text-color-secondary);
 }
 
-/* Footer */
+/* Site footer */
 
-.footer {
+.site-footer {
   background-color: var(--bg-color-dark);
 }
 
-.footer__logo {
+.site-footer__container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.site-footer__logo {
   color: var(--text-color-logo-footer);
 }
 
 /* Contacts */
+
+.contacts {
+  margin-top: 20px;
+}
+
+.contacts__item:not(:first-child) {
+  margin-top: 9px;
+}
 
 .contacts__link {
   font-style: normal;
