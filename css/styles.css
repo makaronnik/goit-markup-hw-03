@@ -230,6 +230,25 @@ body {
   color: var(--text-color-secondary);
 }
 
+/* Competence */
+
+.competence {
+  padding-top: 0;
+}
+
+.competence-list {
+  --competence-list-items-gap: 30px;
+
+  display: flex;
+  margin-top: 50px;
+  margin-left: calc(-1 * var(--competence-list-items-gap));
+}
+
+.competence-list__item {
+  flex-basis: calc((100% / 3) - var(--competence-list-items-gap));
+  margin-left: var(--competence-list-items-gap);
+}
+
 /* Competence & Team */
 
 .competence__heading,
