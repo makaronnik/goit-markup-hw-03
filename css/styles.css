@@ -17,6 +17,7 @@
   --bg-color-button-primary: #f5f4fa;
   --bg-color-button-accent-primary: #2196f3;
   --bg-color-button-accent-secondary: #188ce8;
+  --header-border-color: #ececec;
   --list-items-gap: 30px;
 }
 
@@ -74,6 +75,10 @@ body {
 /* Site header */
 
 .site-header {
+  border-bottom: 1px solid var(--header-border-color);
+}
+
+.site-header__container {
   display: flex;
   align-items: center;
 }
