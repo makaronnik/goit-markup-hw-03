@@ -227,7 +227,7 @@ body {
 }
 
 .features-list__item {
-  flex-basis: calc((100% - 3 * var(--list-items-gap)) / 4);
+  flex-basis: calc(100% / 4 - var(--list-items-gap));
   margin-left: var(--list-items-gap);
 }
 
@@ -250,7 +250,7 @@ body {
 }
 
 .competence-list__item {
-  flex-basis: calc((100% - 2 * var(--list-items-gap)) / 3);
+  flex-basis: calc(100% / 3 - var(--list-items-gap));
   margin-left: var(--list-items-gap);
 }
 
@@ -278,7 +278,7 @@ body {
 }
 
 .team-cards__item {
-  flex-basis: calc((100% - 3 * var(--list-items-gap)) / 4);
+  flex-basis: calc(100% / 3 - var(--list-items-gap));
   margin-left: var(--list-items-gap);
   padding-bottom: 30px;
 
@@ -388,7 +388,7 @@ body {
 }
 
 .portfolio-cards__item {
-  flex-basis: calc((100% / 3) - var(--list-items-gap));
+  flex-basis: calc(100% / 3 - var(--list-items-gap));
   margin-top: var(--list-items-gap);
   margin-left: var(--list-items-gap);
 }
