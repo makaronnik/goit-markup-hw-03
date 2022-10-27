@@ -68,6 +68,11 @@ body {
   display: block;
 }
 
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .text-center {
   text-align: center;
 }
@@ -147,13 +152,6 @@ body {
 
 .contacts-links__link {
   color: var(--text-color-secondary);
-}
-
-/* Button */
-
-.button {
-  font-family: inherit;
-  cursor: pointer;
 }
 
 /* Hero */
@@ -344,13 +342,28 @@ body {
 
 /* Portfolio filter */
 
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-filter__item:not(:first-child) {
+  margin-left: 8px;
+}
+
 .portfolio-filter__button {
+  min-width: 73px;
+  padding: 6px 22px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
   color: var(--text-color-button-text-dark);
   background-color: var(--bg-color-button-primary);
+  border: 0 solid transparent;
+  border-radius: 4px;
 }
 
 .portfolio-filter__button:hover,
