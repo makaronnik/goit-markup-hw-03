@@ -22,29 +22,34 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="container site-header">
         <a href="./index.html" class="logo"><span class="logo__accent">Web</span>Studio</a>
-        <ul class="site-nav">
-          <li class="site-nav__item">
-            <a class="site-nav__link site-nav__link--current" href="./index.html">Студія</a>
+
+        <nav>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a class="site-nav__link site-nav__link--current" href="./index.html">Студія</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-links">
+          <li class="contacts-links__item">
+            <a class="contacts-links__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="site-nav__item">
-            <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="site-nav__item">
-            <a class="site-nav__link" href="">Контакти</a>
+          <li class="contacts-links__item">
+            <a class="contacts-links__link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contact-links">
-        <li class="contacts-links__item">
-          <a class="contacts-links__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="contacts-links__item">
-          <a class="contacts-links__link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
+
     <main>
       <section class="hero">
         <h1 class="hero__heading">Ефективні рішення для вашого бізнесу</h1>
@@ -81,7 +86,7 @@
       </section>
       <section class="competence">
         <h2 class="competence__heading">Чим ми займаємося</h2>
-        <ul class="competence-list">
+        <ul class="competence-list text-center">
           <li>
             <a href="">
               <img src="./images/coding.jpg" alt="Верстаємо сайти" width="370" />
@@ -101,7 +106,7 @@
       </section>
       <section class="team">
         <h2 class="team__heading">Наша команда</h2>
-        <ul class="team-cards">
+        <ul class="team-cards text-center">
           <li class="team-cards__item">
             <img
               src="./images/igor.jpg"
