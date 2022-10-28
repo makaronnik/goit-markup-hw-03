@@ -52,82 +52,89 @@
 
     <main>
       <section class="hero">
-        <h1 class="hero__heading">
-          Ефективні рішення для<br />
-          вашого бізнесу
-        </h1>
-        <button class="button hero__button" type="button">Замовити послугу</button>
+        <div class="container hero__container">
+          <h1 class="hero__heading">
+            Ефективні рішення для<br />
+            вашого бізнесу
+          </h1>
+          <button class="button hero__button" type="button">Замовити послугу</button>
+        </div>
       </section>
 
-      <section class="features section container">
-        <h2 class="features__heading">Особливості</h2>
-        <ul class="features-list">
-          <li class="features-list__item">
-            <h3 class="features-list__heading">Увага до деталей</h3>
-            <p class="features-list__text">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li class="features-list__item">
-            <h3 class="features-list__heading">Пунктуальність</h3>
-            <p class="features-list__text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li class="features-list__item">
-            <h3 class="features-list__heading">Планування</h3>
-            <p class="features-list__text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="features-list__item">
-            <h3 class="features-list__heading">Сучасні технології</h3>
-            <p class="features-list__text">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="features section">
+        <div class="container">
+          <h2 class="features__heading">Особливості</h2>
+          <ul class="features-list">
+            <li class="features-list__item">
+              <h3 class="features-list__heading">Увага до деталей</h3>
+              <p class="features-list__text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__heading">Пунктуальність</h3>
+              <p class="features-list__text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__heading">Планування</h3>
+              <p class="features-list__text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__heading">Сучасні технології</h3>
+              <p class="features-list__text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="competence section container">
-        <h2 class="competence__heading">Чим ми займаємося</h2>
-        <ul class="competence-list text-center">
-          <li class="competence-list__item">
-            <a href="">
-              <img
-                class="image-block"
-                src="./images/coding.jpg"
-                alt="Верстаємо сайти"
-                width="370"
-              />
-            </a>
-          </li>
-          <li class="competence-list__item">
-            <a href="">
-              <img
-                class="image-block"
-                src="./images/adaptation.jpg"
-                alt="Адаптуємо під різні пристрої"
-                width="370"
-              />
-            </a>
-          </li>
-          <li class="competence-list__item">
-            <a href="">
-              <img
-                class="image-block"
-                src="./images/coloring.jpg"
-                alt="Підбираємо кольорову гаму"
-                width="370"
-              />
-            </a>
-          </li>
-        </ul>
+      <section class="competence section">
+        <div class="container">
+          <h2 class="competence__heading">Чим ми займаємося</h2>
+          <ul class="competence-list text-center">
+            <li class="competence-list__item">
+              <a href="">
+                <img
+                  class="image-block"
+                  src="./images/coding.jpg"
+                  alt="Верстаємо сайти"
+                  width="370"
+                />
+              </a>
+            </li>
+            <li class="competence-list__item">
+              <a href="">
+                <img
+                  class="image-block"
+                  src="./images/adaptation.jpg"
+                  alt="Адаптуємо під різні пристрої"
+                  width="370"
+                />
+              </a>
+            </li>
+            <li class="competence-list__item">
+              <a href="">
+                <img
+                  class="image-block"
+                  src="./images/coloring.jpg"
+                  alt="Підбираємо кольорову гаму"
+                  width="370"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="team section">
-        <h2 class="team__heading">Наша команда</h2>
         <div class="container">
+          <h2 class="team__heading">Наша команда</h2>
+
           <ul class="team-cards text-center">
             <li class="team-cards__item">
               <img
@@ -136,8 +143,10 @@
                 alt="Усміхнений брюнет з охайною щетиною на обличчі, в окулярах та бордовою рубашкою"
                 width="270"
               />
-              <h3 class="team-cards__heading">Ігор Дем'яненко</h3>
-              <p class="team-cards__position">Product Designer</p>
+              <div class="team-cards__description">
+                <h3 class="team-cards__heading">Ігор Дем'яненко</h3>
+                <p class="team-cards__position">Product Designer</p>
+              </div>
             </li>
             <li class="team-cards__item">
               <img
@@ -146,8 +155,10 @@
                 alt="Усміхнена блондинка в окулярах та чорному жакеті"
                 width="270"
               />
-              <h3 class="team-cards__heading">Ольга Рєпіна</h3>
-              <p class="team-cards__position">Frontend Developer</p>
+              <div class="team-cards__description">
+                <h3 class="team-cards__heading">Ольга Рєпіна</h3>
+                <p class="team-cards__position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-cards__item">
               <img
@@ -156,8 +167,10 @@
                 alt="Усміхнений брюнет у білій сорочці"
                 width="270"
               />
-              <h3 class="team-cards__heading">Микола Тарасов</h3>
-              <p class="team-cards__position">Marketing</p>
+              <div class="team-cards__description">
+                <h3 class="team-cards__heading">Микола Тарасов</h3>
+                <p class="team-cards__position">Marketing</p>
+              </div>
             </li>
             <li class="team-cards__item">
               <img
@@ -166,8 +179,10 @@
                 alt="Брюнет з щетиною на обличчі, в окулярах та чорній футболці"
                 width="270"
               />
-              <h3 class="team-cards__heading">Михайло Єрмаков</h3>
-              <p class="team-cards__position">UI Designer</p>
+              <div class="team-cards__description">
+                <h3 class="team-cards__heading">Михайло Єрмаков</h3>
+                <p class="team-cards__position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -175,7 +190,7 @@
     </main>
 
     <footer class="site-footer">
-      <div class="site-footer__container container">
+      <div class="container">
         <a href="./index.html" class="logo site-footer__logo"
           ><span class="logo__accent">Web</span>Studio</a
         >
